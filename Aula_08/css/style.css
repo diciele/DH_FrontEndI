@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+body{
+    background-color: #131313;
+}
+h1{
+    color: white;
+    font-family: roboto, sans-serif;
+}
+h2{
+    color: steelblue;
+}
+p{
+    color: #bdbdbd;
+    font-family: roboto, sans-serif;
+}
+a{
+    color: yellow;
+}
+.media-picture{
+    height: 400px;
+    background-image: url(../images/expresso-do-amanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.review-score{
+    background-color: #e6bd09;
+    color: white;
+    padding: 12px;
+}
