@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.bar-discount{
+    width: 100%;
+    height: 38px;
+    background-color: #1CD1B0;
+    padding: 10px 0px 10px 10px;
+    align-items: center;
+    font-size: 15px;
+}
+header{
+    background-color: #00669F;
+    width: 100%;
+    height: 101px;
+    padding: 28px 0px 26px 28px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+section{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.card{
+    width: 374px;
+    height: 597px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.card:last-child{
+    margin-left: 86px;
+}
+.bg-bat{
+    width: 374px;
+    height: 208px;
+    background-image: url(../images/bg_batman.png);
+}
+
+.bg-ale{
+    width: 374px;
+    height: 208px;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(../images/bg_alerquina.png);
+}
+.bg-bat img, .bg-ale img{
+    border-radius: 50%;
+    margin: 144px 0px 0px 115px;
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+}
+
+.coracao{
+    position: absolute;
+    margin: 17px 0px 0px 23px;
+}
+
+.bg{
+    width: 364px;
+    height: 217px;
+}
+.texto{
+    text-align: center;
+}
+.texto h2{
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
+.texto p{
+    margin: 0px 14% 0px 14%;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+button{
+    padding: 17px 30px;
+    margin-bottom: 20px;
+    background-color: #00669F;
+    color: #ffff;
+    border: 0px solid;
+}
+
+footer{
+    width: 100%;
+    height: 51px;
+    background-color: #00669F;
+    position: absolute;
+    bottom: 0px;
+    padding: 16px 0px 16px 28px;
+    color: #ffff;
+    font-size: 16px;
+}
