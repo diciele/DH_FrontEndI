@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #E5E5E5;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #222222;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 28px;
+}
+
+header img{
+    margin: 10px 0px 10px 20px;
+    justify-content: flex-start;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #ffff;
+    margin: 5px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2{
+    color: red;
+}
+.card{
+    width: 48%;
+    height: 350px;
+    border: 0px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.direita{
+    margin-left: 3px;
+    background-color: #ffff;
+}
+.esquerda{
+    margin-right: 3px;
+    background-image: url(../images/delivery.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.conteudo-direita{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.direita h2{
+    margin-top: 26px;
+}
+.esquerda h2{
+    margin-top: 4px;
+}
+.esquerda span{
+    color: #ffff;
+}
+.conteudo-direita ol li{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.conteudo-direita h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px !important;
+}
+
+/* .card:last-child{
+    margin-left: 5px;
+}
+*/
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    
+}
+footer img{
+
+width: 212px;
+height: 80px;
+margin: 42px;
+}
+
+footer ul{
+    list-style: none;
+    color: #ffff;
+    margin-left: 42px;
+}
+footer ul li {
+    margin-bottom: 10px;
+}
