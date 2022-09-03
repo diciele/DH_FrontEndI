@@ -13,9 +13,8 @@
     justify-content: space-between;
 }
 header{
-    width: 100%;
     height: 62px;
-    background-color: #F0A83E;
+    background-color:#F0A83E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,10 +34,9 @@ header ul li {
 header img{
     margin-left: 40px;
 }
-
 .banner{
     background-image: url(../images/bowl-and-pet-daities-on-green-background\ 1.png);
-    width: 100%;
+    background-size: cover;
     height: 409px;
     background-repeat: no-repeat;
     display: flex;
@@ -169,13 +167,11 @@ header img{
     margin-bottom: 88px;
 }
 .inscreva-se{
-    width: 100%;
     height: 60px;
     background: #F0A83E;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 #iconCorreio{
     margin-left: 20px;
@@ -236,4 +232,51 @@ footer{
 .item-barra p {
     font-size: 11px;
     color: #8A8787;
+}
+
+@media(max-width:480px){
+    header ul{
+        display: none;
+}
+    .banner .conteudo-texto {
+    text-align: end;
+}
+    .barInfo{
+    display: none;
+}
+    .produtos{
+        display: flex;
+        flex-direction: column;
+}
+    .cards{
+        margin-bottom: 45px;
+    }
+    .produtos_destacados h2{
+        font-size: 3rem;
+}
+    .inscreva-se {
+    display: flex;
+    flex-direction: column;
+    height: 101px;
+    justify-content: center;
+}
+#iconCorreio {
+    margin-left: 0px;
+}
+#info-location{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding:0px 70px;
+}
+footer{
+    font-size: 0.7rem;
+}
+#info-location img{
+    margin-bottom: 5px;
+}
+#titleLogo{
+    margin: 0px;
+}
 }
